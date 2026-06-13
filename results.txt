@@ -1,0 +1,89 @@
+============================================================
+STOCHASTIC BATTLEFIELD GAME - RESULTS
+============================================================
+
+Move 1 | Agent A (Expert) | Action: Move (1, 0)
+  Expectiminimax nodes explored: 10002
+  Nodes pruned (Alpha-Beta): 744 (7.4%)
+  Chosen action value (utility): 2.65
+
+Move 2 | Agent B (Intermediate) | Action: Move (6, 0)
+  Expectiminimax nodes explored: 1437
+  Nodes pruned (Alpha-Beta): 114 (7.9%)
+  Chosen action value (utility): 0.90
+
+Move 3 | Agent C (Novice) | Action: Move (2, 7)
+  Expectiminimax nodes explored: 161
+  Nodes pruned (Alpha-Beta): 12 (7.5%)
+  Chosen action value (utility): 0.00
+
+Move 4 | Agent A (Expert) | Action: Move (2, 0)
+  Expectiminimax nodes explored: 10003
+  Nodes pruned (Alpha-Beta): 899 (9.0%)
+  Chosen action value (utility): 2.73
+
+Move 5 | Agent B (Intermediate) | Action: Move (5, 0)
+  Expectiminimax nodes explored: 2033
+  Nodes pruned (Alpha-Beta): 153 (7.5%)
+  Chosen action value (utility): 1.20
+
+Move 6 | Agent C (Novice) | Action: Move (1, 7)
+  Expectiminimax nodes explored: 161
+  Nodes pruned (Alpha-Beta): 12 (7.5%)
+  Chosen action value (utility): 0.00
+
+Move 7 | Agent A (Expert) | Action: Move (3, 0)
+  Expectiminimax nodes explored: 10002
+  Nodes pruned (Alpha-Beta): 758 (7.6%)
+  Chosen action value (utility): 2.72
+
+Move 8 | Agent B (Intermediate) | Action: Move (5, 1)
+  Expectiminimax nodes explored: 2549
+  Nodes pruned (Alpha-Beta): 160 (6.3%)
+  Chosen action value (utility): 1.20
+
+Move 9 | Agent C (Novice) | Action: Move (0, 7)
+  Expectiminimax nodes explored: 161
+  Nodes pruned (Alpha-Beta): 12 (7.5%)
+  Chosen action value (utility): 0.00
+
+Move 10 | Agent A (Expert) | Action: Move (4, 0)
+  Expectiminimax nodes explored: 10003
+  Nodes pruned (Alpha-Beta): 700 (7.0%)
+  Chosen action value (utility): 2.95
+
+Move 11 | Agent B (Intermediate) | Action: Wait
+  Expectiminimax nodes explored: 2849
+  Nodes pruned (Alpha-Beta): 146 (5.1%)
+  Chosen action value (utility): 0.40
+
+Move 12 | Agent C (Novice) | Action: Fortify (1, 7)
+  Expectiminimax nodes explored: 161
+  Nodes pruned (Alpha-Beta): 12 (7.5%)
+  Chosen action value (utility): 0.50
+
+Move 13 | Agent A (Expert) | Action: Move (5, 0)
+  Expectiminimax nodes explored: 10003
+  Nodes pruned (Alpha-Beta): 708 (7.1%)
+  Chosen action value (utility): 3.22
+
+Move 14 | Agent B (Intermediate) | Action: Move (4, 1)
+  Expectiminimax nodes explored: 3803
+  Nodes pruned (Alpha-Beta): 181 (4.8%)
+  Chosen action value (utility): -0.85
+
+Move 15 | Agent C (Novice) | Action: Move (0, 6)
+  Expectiminimax nodes explored: 159
+  Nodes pruned (Alpha-Beta): 12 (7.5%)
+  Chosen action value (utility): 0.50
+
+============================================================
+GAME OVER - Winner: Agent A
+Final Scores: {'A': 20, 'B': 15, 'C': 18}
+============================================================
+
+NODE EXPLORATION SUMMARY
+----------------------------------------
+Agent A (Expert): Explored=50013, Pruned=3809, Efficiency=7.6%
+Agent B (Intermediate): Explored=12671, Pruned=754, Efficiency=6.0%
+Agent C (Novice): Explored=803, Pruned=60, Efficiency=7.5%
